@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/karnataka"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/Department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="20"
+            android:text="Government Of Karnataka"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/department_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="20"
+            android:gravity="center"
+            android:text="COVID-19 Report"
+            android:textColor="	#4CAF50"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:background="@color/cardview_light_background"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtApplicationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="20"
+            android:gravity="center"
+
+            android:text=" Welcome \nCovid War Room-Covid Test Results"
+            android:textColor="	#7C2E2E"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp">
+
+                    <TableRow
+                        tools:ignore="UselessParent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="mobile_number"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            android:textColor="@android:color/black"/>
+
+
+                        <EditText
+                            android:id="@+id/phoneNum"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Mobile number"
+                            tools:ignore="Autofill,UnusedAttribute"
+                            android:layout_column="3"
+                            android:maxLength="10"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:digits="1234567890"
+                            android:imeOptions="actionDone"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/sendOTP"
+                    style="Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="30sp"
+                    android:backgroundTint="#290A45"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:text="send otp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/karnataka"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/Department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="20"
+            android:text="Government Of Karnataka"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:background="@color/cardview_light_background"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="20"
+            android:gravity="center"
+            android:text="Privacy Policy "
+            android:textColor="	#7C2E2E"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="When you use Quarantine Watch App or any of the partner Apps such as Arogya Setu, Contact Tracing or any other Apps S that are integrated with Quarantine Watch through APIs (as per the Guidelines for Quarantine Watch APIs), hereinafter collectively referred to as Quarantine Watch, some personal information is collected from and about you. We are committed to protecting the security of this information and safeguarding your privacy. This privacy policy sets out the details of the personal information collected, the manner in which it is collected, by whom, as well as the purposes for which it is used. At registration you are requested to accept the terms of this Privacy Policy and your use of Quarantine Watch signifies your continued acceptance thereof. This Privacy Policy may be revised from time to time and you will be notified of all such changes. In order to use Quarantine Watch, you are agreeing to the terms of the Privacy Policy."
+            android:textColor="	#7C2E2E"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/default_color"
+            android:ems="20"
+            android:text="Location : "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             android:layout_marginStart="2dp"
+            android:text="  Once the user logins the location of the quarantined individual is mapped through the application to tell the exact location of the person.  "
+            android:textColor="	#7C2E2E"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/default_color"
+            android:ems="20"
+            android:text="Camera : "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2dp"
+            android:text="  The quarantined individual has to upload his/her quarantining photos or selfies on the application. All the photos or selfies sent by an individual in home quarantine are verified by the authorities or government photo verification team such that an individual is not violating home isolation rules."
+            android:textColor="	#7C2E2E"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"/>
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/default_color"
+            android:ems="20"
+            android:text="Phone : "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2dp"
+            android:text="  Authorities can make a call to the quarantined person through the application."
+            android:textColor="	#7C2E2E"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"/>
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/default_color"
+            android:ems="20"
+            android:text="Storage : "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2dp"
+            android:text="  Used to save, modify or delete the data collected through the application. All the data is stored in local storage and retrieved to the server. The data will be erased or deleted from the local storage once it is synchronized with the server."
+            android:textColor="	#7C2E2E"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="I Accept" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

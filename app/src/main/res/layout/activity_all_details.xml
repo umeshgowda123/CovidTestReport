@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".All_details">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/karnataka" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="COVID-19 TEST REPORT"
+        android:textStyle="bold">
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Name Of the Lab "
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cname_of_the_lab"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="ICMR ID"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cICMR_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="SRF ID "
+                android:layout_column="1"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cSRF_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:layout_marginStart="15dp"
+                android:layout_column="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Name of the Person "
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:text="Age "
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender "
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swab Collection "
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/csample_Collection_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Result Date "
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cresult_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Test Result "
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ctest_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="10dp"
+            android:id="@+id/staterowID"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State P Code "
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ctState_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_marginStart="10dp"
+           android:layout_marginTop="10dp"
+            android:id="@+id/districrowID"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="District P Code "
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:layout_marginStart="0dp"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text=":"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/caddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginStart="15dp"
+                android:text="name" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mobile_number"
+                android:textAlignment="gravity" />
+            <TextView
+                android:id="@+id/cmobile_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+            <ImageView
+                android:id="@+id/QR_code"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_marginTop="5dp" />
+            <Button
+                android:id="@+id/pdf"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#290A45"
+                android:text="Save As PDF" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</TableLayout>

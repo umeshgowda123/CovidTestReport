@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Covid Test Report</string>
+    <string name="avaiable_results_for_number">Avaiable Results for Number</string>
+    <string name="username">ddksm89skoo9734eb83d03ec5ba1e3252d08d9ad102b8f0b2cs678027h6nl735</string>
+    <string name="password">uo12s7jdmko9734eb83d03ec5ba1e3252d08d9ad102b8f0b2cs15g6d782h03h8u</string>
+    <string name="grandtype">password</string>
+    <string name="todo">todo</string>
+
+    <string name="db_name">covid19_test_report</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/activity_all_details.xml" value="0.3202247191011236" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/activity_main2.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/activity_otp_verify.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/activity_result_for_mobile_no.xml" value="0.33" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/activity_splash_screen.xml" value="0.45213379469434833" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/all.xml" value="0.3851851851851852" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/content_otp_verify.xml" value="0.18636363636363637" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/main_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/otp.xml" value="0.33" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/privacy.xml" value="0.4209445585215606" />
+        <entry key="..\:/Users/bhoomi/AndroidStudioProjects/CovidTestReport/app/src/main/res/layout/result_view_layout.xml" value="0.2689075630252101" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
